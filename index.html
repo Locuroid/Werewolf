@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Werewolf // Moon Phases</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="particle-container">
+      <div class="flexContainer">
+        <div id="mainPhaseBox">
+          <div id="todayMoonPhaseBox">
+            <div id="todayMoonPhaseEmoji"></div>
+            <div id="todayMoonPhase"></div>
+            <div id="todayDate"></div>
+          </div>
+        </div>
+        <div>
+        <div class="nextMoonPhaseBox">
+          <div class="nextMoonPhaseEmoji">🌑</div>
+          <div class="nextMoonPhaseTextBox">
+            <div class="nextMoonPhaseDescriptor">Next New Moon On:</div>
+            <div id="nextNewMoonDate"></div> 
+          </div>
+        </div>
+        <div class="nextMoonPhaseBox">
+          <div class="nextMoonPhaseEmoji">🌕</div>
+          <div class="nextMoonPhaseTextBox">
+            <div class="nextMoonPhaseDescriptor">Next Full Moon On:</div>
+            <div id="nextFullMoonDate"></div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="luxon.js"></script>
+    <script src="particles.js"></script>
+    <script src="particle-config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
